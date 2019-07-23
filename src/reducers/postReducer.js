@@ -6,8 +6,14 @@ const initialState = {
   item: {}
 };
 
-export default (state = initialState, actions) => {
-  switch (actions.type) {
+export default (state = initialState, action) => {
+  switch (action.type) {
+    case FETCH_POSTS:
+      console.log("reducer set");
+      return {
+        ...state,
+        items: action.payload
+      };
     default:
       return state;
   }
