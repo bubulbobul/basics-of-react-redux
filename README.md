@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## View the DEMO
+
+[Click Here](https://bubulbobul.github.io/basics-of-react-redux/)
+
+In the project directory, you can run:
+
 ## Available Scripts
 
 In the project directory, you can run:
